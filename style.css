@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1rem;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.2ZxwH0uxTPGQYSUtioOJagHaGD?rs=1&pid=ImgDetMain&o=7&rm=3);
+    color: crimson;
+}
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 10px solid greenyellow;
+    border-radius: 15px;
+    font-size: 1.3rem;
+}
+
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: hotpink;
+    color: blue;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
